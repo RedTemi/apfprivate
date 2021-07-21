@@ -1,0 +1,54 @@
+{
+	"form": {
+		"action": "S'inscrire maintenant! pour participer à l'atelier.",
+		"areas": {
+			"admin": "Administrateur",
+			"community": "Communauté",
+			"hospital": "Hôpital",
+			"industry": "Industriel",
+			"others": "autres",
+			"public": "Santé publique"
+		},
+		"country": "Pays",
+		"email": "Email",
+		"fname": "Prénom",
+		"lname": "Nom de famille",
+		"mobile": "Numéro de portable",
+		"other": "Autre nom",
+		"password": "Mot de passe",
+		"practice": "Domaine de pratique",
+		"prompt": "Choisissez un",
+		"register": "Registre",
+		"whatsapp": "Whatsapp"
+	},
+	"header": {
+		"action": "Inscrire maintenant!",
+		"theme": "<span class=\"font-extrabold\">Thème :</span> Innovations technologiques pour la pharmacie en Afrique Admettre la pandémie de Covid-19",
+		"time": "Date : 31 juillet",
+		"title": "Atelier régional APF"
+	},
+	"nav": {
+		"home": "Accueil",
+		"register": "registre"
+	},
+	"speakers": {
+		"designations": [
+			{
+				"designation": "Professeur de chimie pharmaceutique, Université du Bénin, Nigéria.",
+				"post": "Orateur"
+			},
+			{
+				"designation": "PDG, Independent Community Pharmacy Association, Cape Town, Afrique du Sud.",
+				"post": "Orateur"
+			},
+			{
+				"designation": "Maître de conférences, Université des sciences et technologies Kwame Nkrumah, Ghana."
+			},
+			{
+				"designation": "Président de l'APF.",
+				"post": "Hôte"
+			}
+		],
+		"speakers": "Rencontrez les hôtes et les conférenciers"
+	}
+}

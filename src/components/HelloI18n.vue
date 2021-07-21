@@ -10,8 +10,14 @@ export default {
 
 <i18n>
 {
-  "en": {
-    "hello": "Hello i18n in SFC!"
-  }
+	"en": {
+		"hello": "Hello i18n in SFC!"
+	},
+	"pt-PT": {
+		"hello": ""
+	},
+	"fr-FR": {
+		"hello": ""
+	}
 }
 </i18n>

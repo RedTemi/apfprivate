@@ -1,3 +1,54 @@
 {
-  "message": "hello i18n !!"
+	"form": {
+		"action": "Register Now! to participate in the workshop.",
+		"areas": {
+			"admin": "Administrator",
+			"community": "Community",
+			"hospital": "Hospital",
+			"industry": "Industrial",
+			"others": "Others",
+			"public": "Public Health"
+		},
+		"country": "Country",
+		"email": "e-mail",
+		"fname": "First Name",
+		"lname": "Last Name",
+		"mobile": "mobile number",
+		"other": "Other Name",
+		"password": "Password",
+		"practice": "Area of practice",
+		"prompt": "Select one",
+		"register": "Register",
+		"whatsapp": "Whatsapp"
+	},
+	"header": {
+		"action": "Register Now!",
+		"theme": "<span class=\"font-extrabold\">Theme:</span> Technological innovations for Pharmacy in Africa Admist the Covid-19 pandemic",
+		"time": "Date: 31st of July",
+		"title": "APF Regional Workshop"
+	},
+	"nav": {
+		"home": "Home",
+		"register": "Register"
+	},
+	"speakers": {
+		"designations": [
+			{
+				"designation": "Professor of Pharmaceutical Chemistry, University of Benin, Nigeria.",
+				"post": "Speaker"
+			},
+			{
+				"designation": "CEO, Independent Community Pharmacy Association, Cape Town, South Africa.",
+				"post": "Speaker"
+			},
+			{
+				"designation": "Lecturer, Kwame Nkrumah University of Science and Technology, Ghana."
+			},
+			{
+				"designation": "APF President.",
+				"post": "Host"
+			}
+		],
+		"speakers": "Meet the hosts and speakers"
+	}
 }

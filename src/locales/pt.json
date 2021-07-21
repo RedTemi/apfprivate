@@ -1,0 +1,54 @@
+{
+	"form": {
+		"action": "Registrar agora! para participar do workshop.",
+		"areas": {
+			"admin": "Administrador",
+			"community": "Comunidade",
+			"hospital": "hospital",
+			"industry": "Industrial",
+			"others": "outras",
+			"public": "Saúde pública"
+		},
+		"country": "País",
+		"email": "O email",
+		"fname": "Primeiro nome",
+		"lname": "Último nome",
+		"mobile": "número de celular",
+		"other": "Outro nome",
+		"password": "Senha",
+		"practice": "Área de atuação",
+		"prompt": "Selecione um",
+		"register": "Registo",
+		"whatsapp": "Whatsapp"
+	},
+	"header": {
+		"action": "Registrar agora!",
+		"theme": "<span class=\"font-extrabold\">Tema:</span> Inovações tecnológicas para a pandemia de Farmácia na África Admist the Covid-19",
+		"time": "Data: 31 de julho",
+		"title": "Workshop Regional APF"
+	},
+	"nav": {
+		"home": "Casa",
+		"register": "registo"
+	},
+	"speakers": {
+		"designations": [
+			{
+				"designation": "Professor de Química Farmacêutica, Universidade de Benin, Nigéria.",
+				"post": "Alto falante"
+			},
+			{
+				"designation": "CEO, Associação de Farmácias Comunitárias Independentes, Cidade do Cabo, África do Sul.",
+				"post": "Alto falante"
+			},
+			{
+				"designation": "Professor, Universidade de Ciência e Tecnologia Kwame Nkrumah, Gana."
+			},
+			{
+				"designation": "Presidente da APF.",
+				"post": "Hospedeiro"
+			}
+		],
+		"speakers": "Conheça os anfitriões e palestrantes"
+	}
+}
