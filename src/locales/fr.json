@@ -1,13 +1,18 @@
 {
+	"banner": "<h2 class=\"text-3xl text-white font-black text-center\">Inscription réussie !</h2> <p class=\"text-gray-300 font-semibold text-center\">Retournez sur cette page pour participer à l'atelier</p>",
+	"congrats": "   <h2 class=\"font-extrabold p-5 text-left text-2xl inline-block mx-auto text-blue-600\">      Vous êtes connecté. <br />      Revenez ici pour l'atelier du 31<sup></sup> juillet.\n    </h2>",
 	"form": {
 		"action": "S'inscrire maintenant! pour participer à l'atelier.",
 		"areas": {
+			"acada": "Académique",
 			"admin": "Administrateur",
 			"community": "Communauté",
 			"hospital": "Hôpital",
 			"industry": "Industriel",
 			"others": "autres",
-			"public": "Santé publique"
+			"passwordTitle": "Huit caractères ou plus",
+			"public": "Santé publique",
+			"success": ""
 		},
 		"country": "Pays",
 		"email": "Email",
@@ -19,16 +24,21 @@
 		"practice": "Domaine de pratique",
 		"prompt": "Choisissez un",
 		"register": "Registre",
-		"whatsapp": "Whatsapp"
+		"salutation": "",
+		"success": "Inscription réussie !",
+		"whatsapp": "Whatsapp",
+		"why": "Connectez-vous pour découvrir l'atelier APF."
 	},
 	"header": {
 		"action": "Inscrire maintenant!",
-		"theme": "<span class=\"font-extrabold\">Thème :</span> Innovations technologiques pour la pharmacie en Afrique Admettre la pandémie de Covid-19",
+		"theme": "<span class=\"font-extrabold\">Thème :</span> Innovations technologiques pour la pharmacie en Afrique Admettre la pandémie de COVID-19",
 		"time": "Date : 31 juillet",
 		"title": "Atelier régional APF"
 	},
 	"nav": {
 		"home": "Accueil",
+		"login": "S'identifier",
+		"logout": "Connectez - Out",
 		"register": "registre"
 	},
 	"speakers": {

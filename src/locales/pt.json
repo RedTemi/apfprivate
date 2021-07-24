@@ -1,13 +1,18 @@
 {
+	"banner": "<h2 class=\"text-3xl text-white font-black text-center\">Registro bem-sucedido!</h2> <p class=\"text-gray-300 font-semibold text-center\">Retorne a esta página para participar do workshop</p>",
+	"congrats": "   <h2 class=\"font-extrabold p-5 text-left text-2xl inline-block mx-auto text-blue-600\">      Você está conectado. <br />      Volte aqui para o workshop no dia 31<sup></sup> de julho.\n    </h2>",
 	"form": {
 		"action": "Registrar agora! para participar do workshop.",
 		"areas": {
+			"acada": "Academia",
 			"admin": "Administrador",
 			"community": "Comunidade",
 			"hospital": "hospital",
 			"industry": "Industrial",
 			"others": "outras",
-			"public": "Saúde pública"
+			"passwordTitle": "Oito ou mais personagens",
+			"public": "Saúde pública",
+			"success": ""
 		},
 		"country": "País",
 		"email": "O email",
@@ -19,16 +24,21 @@
 		"practice": "Área de atuação",
 		"prompt": "Selecione um",
 		"register": "Registo",
-		"whatsapp": "Whatsapp"
+		"salutation": "",
+		"success": "Registro bem sucedido!",
+		"whatsapp": "Whatsapp",
+		"why": "Faça login para experimentar o workshop APF."
 	},
 	"header": {
 		"action": "Registrar agora!",
-		"theme": "<span class=\"font-extrabold\">Tema:</span> Inovações tecnológicas para a pandemia de Farmácia na África Admist the Covid-19",
+		"theme": "<span class=\"font-extrabold\">Tema:</span> Inovações tecnológicas para a pandemia de Farmácia na África Admist the COVID-19",
 		"time": "Data: 31 de julho",
 		"title": "Workshop Regional APF"
 	},
 	"nav": {
 		"home": "Casa",
+		"login": "Entrar",
+		"logout": "Sair",
 		"register": "registo"
 	},
 	"speakers": {
