@@ -621,8 +621,351 @@
 </template>
 
 <script>
+const mail = `<!DOCTYPE html>
+<html style="
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin: 0;
+  ">
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>APF 2021 confirmation</title>
+
+    <style type="text/css">
+        img {
+            max-width: 100%;
+        }
+
+        body {
+            -webkit-font-smoothing: antialiased;
+            -webkit-text-size-adjust: none;
+            width: 100% !important;
+            height: 100%;
+            line-height: 1.6em;
+        }
+
+        body {
+            background-color: #f6f6f6;
+        }
+
+        @media only screen and (max-width: 640px) {
+            body {
+                padding: 0 !important;
+            }
+
+            h1 {
+                font-weight: 800 !important;
+                margin: 20px 0 5px !important;
+            }
+
+            h2 {
+                font-weight: 800 !important;
+                margin: 20px 0 5px !important;
+            }
+
+            h3 {
+                font-weight: 800 !important;
+                margin: 20px 0 5px !important;
+            }
+
+            h4 {
+                font-weight: 800 !important;
+                margin: 20px 0 5px !important;
+            }
+
+            h1 {
+                font-size: 22px !important;
+            }
+
+            h2 {
+                font-size: 18px !important;
+            }
+
+            h3 {
+                font-size: 16px !important;
+            }
+
+            .container {
+                padding: 0 !important;
+                width: 100% !important;
+            }
+
+            .content {
+                padding: 0 !important;
+            }
+
+            .content-wrap {
+                padding: 10px !important;
+            }
+
+            .invoice {
+                width: 100% !important;
+            }
+        }
+    </style>
+</head>
+
+<body itemscope itemtype="http://schema.org/EmailMessage" style="
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      box-sizing: border-box;
+      font-size: 14px;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: none;
+      width: 100% !important;
+      height: 100%;
+      line-height: 1.6em;
+      background-color: #f6f6f6;
+      margin: 0;
+    " bgcolor="#f6f6f6">
+    <table class="body-wrap" style="
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        box-sizing: border-box;
+        font-size: 14px;
+        width: 100%;
+        background-color: #f6f6f6;
+        margin: 0;
+      " bgcolor="#f6f6f6">
+        <tr style="
+          font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+          box-sizing: border-box;
+          font-size: 14px;
+          margin: 0;
+        ">
+            <td style="
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            box-sizing: border-box;
+            font-size: 14px;
+            vertical-align: top;
+            margin: 0;
+          " valign="top"></td>
+            <td class="container" width="600" style="
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            box-sizing: border-box;
+            font-size: 14px;
+            vertical-align: top;
+            display: block !important;
+            max-width: 600px !important;
+            clear: both !important;
+            margin: 0 auto;
+          " valign="top">
+                <div class="content" style="
+              font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+              box-sizing: border-box;
+              font-size: 14px;
+              max-width: 600px;
+              display: block;
+              margin: 0 auto;
+              padding: 20px;
+            ">
+                    <table class="main" width="100%" cellpadding="0" cellspacing="0" itemprop="action" itemscope
+                        itemtype="http://schema.org/ConfirmAction" style="
+                font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                box-sizing: border-box;
+                font-size: 14px;
+                border-radius: 3px;
+                background-color: #fff;
+                margin: 0;
+                border: 1px solid #e9e9e9;
+              " bgcolor="#fff">
+                        <tr style="
+                  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                  box-sizing: border-box;
+                  font-size: 14px;
+                  margin: 0;
+                ">
+                            <td class="content-wrap" style="
+                    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                    box-sizing: border-box;
+                    font-size: 14px;
+                    vertical-align: top;
+                    margin: 0;
+                    padding: 20px;
+                  " valign="top">
+                                <meta itemprop="name" content="Confirm Email" style="
+                      font-family: 'Helvetica Neue', Helvetica, Arial,
+                        sans-serif;
+                      box-sizing: border-box;
+                      font-size: 14px;
+                      margin: 0;
+                    " />
+                                                    <table width="100%" cellpadding="0" cellspacing="0" style="
+                                                    font-family: 'Helvetica Neue', Helvetica, Arial,
+                                                      sans-serif;
+                                                    box-sizing: border-box;
+                                                    font-size: 14px;
+                                                    margin: 0;
+                                                  ">
+                                                                  <tr style="
+                                                      font-family: 'Helvetica Neue', Helvetica, Arial,
+                                                        sans-serif;
+                                                      box-sizing: border-box;
+                                                      font-size: 14px;
+                                                      margin: 0;
+                                                    ">
+                                                                      <td class="content-block" style="
+                                                        font-family: 'Helvetica Neue', Helvetica, Arial,
+                                                          sans-serif;
+                                                        box-sizing: border-box;
+                                                        font-size: 14px;
+                                                        vertical-align: top;
+                                                        margin: 0;
+                                                        padding: 0 0 20px;
+                                                      " valign="top">
+                                                                     Congratulations on signing up for the APF Workshop being held on the 31st of July 2021 at 11am West African Time./
+                                                                     Parabéns por se inscrever no Workshop APF que será realizado no dia 31 de julho de 2021 às 11h, horário da África Ocidental./Félicitations pour votre inscription à l'atelier APF qui se tiendra le 31 juillet 2021 à 11h, heure de l'Afrique de l'Ouest.
+                                                                      </td>
+                                                                  </tr>
+                                                            
+                                                                  <tr style="
+                                                      font-family: 'Helvetica Neue', Helvetica, Arial,
+                                                        sans-serif;
+                                                      box-sizing: border-box;
+                                                      font-size: 14px;
+                                                      margin: 0;
+                                                    ">
+                                                                      <td class="content-block" style="
+                                                        font-family: 'Helvetica Neue', Helvetica, Arial,
+                                                          sans-serif;
+                                                        box-sizing: border-box;
+                                                        font-size: 14px;
+                                                        vertical-align: top;
+                                                        margin: 0;
+                                                        padding: 0 0 20px;
+                                                      " valign="top">
+                              
+                                                                      </td>
+                                                                  </tr>
+                                                              </table>
+                                <table width="100%" cellpadding="0" cellspacing="0" style="
+                      font-family: 'Helvetica Neue', Helvetica, Arial,
+                        sans-serif;
+                      box-sizing: border-box;
+                      font-size: 14px;
+                      margin: 0;
+                    ">
+                                    <tr style="
+                        font-family: 'Helvetica Neue', Helvetica, Arial,
+                          sans-serif;
+                        box-sizing: border-box;
+                        font-size: 14px;
+                        margin: 0;
+                      ">
+                                        <td class="content-block" style="
+                          font-family: 'Helvetica Neue', Helvetica, Arial,
+                            sans-serif;
+                          box-sizing: border-box;
+                          font-size: 14px;
+                          vertical-align: top;
+                          margin: 0;
+                          padding: 0 0 20px;
+                        " valign="top">
+                                            You may join the workshop by clicking on the hyperlink below. /Vous pouvez rejoindre l'atelier en cliquant sur l'hyperlien ci-dessous. /
+                                            Você pode participar do workshop clicando no link abaixo.
+                                        </td>
+                                    </tr>
+                                    <tr style="
+                        font-family: 'Helvetica Neue', Helvetica, Arial,
+                          sans-serif;
+                        box-sizing: border-box;
+                        font-size: 14px;
+                        margin: 0;
+                      ">
+                                        <td class="content-block" itemprop="handler" itemscope
+                                            itemtype="http://schema.org/HttpActionHandler" style="
+                          font-family: 'Helvetica Neue', Helvetica, Arial,
+                            sans-serif;
+                          box-sizing: border-box;
+                          font-size: 14px;
+                          vertical-align: top;
+                          margin: 0;
+                          padding: 0 0 20px;
+                        " valign="top">
+                                            <a href="apf2021.online" class="btn-primary" itemprop="url" style="
+                            font-family: 'Helvetica Neue', Helvetica, Arial,
+                              sans-serif;
+                            box-sizing: border-box;
+                            font-size: 14px;
+                            color: #fff;
+                            text-decoration: none;
+                            line-height: 2em;
+                            font-weight: bold;
+                            text-align: center;
+                            cursor: pointer;
+                            display: inline-block;
+                            border-radius: 5px;
+                            text-transform: capitalize;
+                            background-color: #348eda;
+                            margin: 0;
+                            border-color: #348eda;
+                            border-style: solid;
+                            border-width: 10px 20px;
+                          ">Proceed/Continuar/Procéder</a>
+                                        </td>
+                                    </tr>
+                                    <tr style="
+                        font-family: 'Helvetica Neue', Helvetica, Arial,
+                          sans-serif;
+                        box-sizing: border-box;
+                        font-size: 14px;
+                        margin: 0;
+                      ">
+                                        <td class="content-block" style="
+                          font-family: 'Helvetica Neue', Helvetica, Arial,
+                            sans-serif;
+                          box-sizing: border-box;
+                          font-size: 14px;
+                          vertical-align: top;
+                          margin: 0;
+                          padding: 0 0 20px;
+                        " valign="top">
+
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="footer" style="
+                font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                box-sizing: border-box;
+                font-size: 14px;
+                width: 100%;
+                clear: both;
+                color: #999;
+                margin: 0;
+                padding: 20px;
+              ">
+                        <table width="100%" style="
+                  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                  box-sizing: border-box;
+                  font-size: 14px;
+                  margin: 0;
+                ">
+                          
+                        </table>
+                    </div>
+                </div>
+            </td>
+            <td style="
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            box-sizing: border-box;
+            font-size: 14px;
+            vertical-align: top;
+            margin: 0;
+          " valign="top"></td>
+        </tr>
+    </table>
+</body>
+
+</html>`;
 import app from "../assets/firebaseconf";
 import firebase from "firebase";
+import Mailgun from "mailgun.js";
+let mailgun = new Mailgun(FormData);
+let mg = mailgun.client({username:'api',key:'32216a54cc169cafcca64fc737947ff0-c485922e-a2f9973d', url: 'https://api.eu.mailgun.net'});
 export default {
   name: "register",
   data() {
@@ -631,6 +974,16 @@ export default {
     };
   },
   methods: {
+    sendmail(){
+      mg.messages.create('apf2021.online', {
+    from: "noreply <noreply@apf2021.online>",
+    to: this.user.email,
+    subject: "Registration Sucess",
+    html: mail
+  })
+  .then(msg => console.log(msg)) // logs response data
+  .catch(err => console.log(err)); // logs any error
+    },
     register() {
       if (document.querySelector("#form1").reportValidity()) {
         app
@@ -645,6 +998,7 @@ export default {
               .set(this.user)
               .then(() => {
                 alert(this.$t("form.areas.success"));
+                this.sendmail();
                 this.$emit('done');
               });
           })

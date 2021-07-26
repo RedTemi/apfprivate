@@ -3,7 +3,6 @@
     <div class="mx-auto max-w-7xl">
       <nav
         class="flex items-center w-full h-24 select-none"
-        x-data="{ showMenu: false }"
       >
         <div
           class="
@@ -24,6 +23,36 @@
               ><span>APF 2021</span><span class="text-indigo-300">.</span></span
             >
           </a>
+                         <div
+                  class="
+                  bg-white
+                    rounded-full
+                    shadow-inner
+                    border
+                    sm:hidden
+                    inline-block
+                    px-2
+                    overflow-hidden
+                  "
+                >
+                  <select
+                    v-model="$root.$i18n.locale"
+                    class="py-1 px-2 bg-white border-none w-full focus:border-0"
+                  >
+                    <option value="pt">
+                      <img src="https://www.countryflags.io/PT/flat/64.png" />
+                      Portugese
+                    </option> 
+                    <option value="en">
+                      <img src="https://www.countryflags.io/GB/flat/64.png" />
+                      English
+                    </option>
+                    <option value="fr">
+                      <img src="https://www.countryflags.io/FR/flat/64.png" />
+                      French
+                    </option>
+                  </select>
+                </div>
           <div
             class="
               fixed
@@ -45,7 +74,7 @@
               md:relative
               md:flex
             "
-            :class="{ flex: showMenu, hidden: !showMenu }"
+            v-bind:class="{ flex: showMenu, hidden: !showMenu }"
           >
             <div
               class="
@@ -225,7 +254,7 @@
           >
             <svg
               class="w-6 h-6"
-              x-show="!showMenu"
+              v-show="!showMenu"
               fill="none"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -238,7 +267,7 @@
             </svg>
             <svg
               class="w-6 h-6"
-              x-show="showMenu"
+              v-show="showMenu"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -353,6 +382,11 @@
 import app from "../assets/firebaseconf";
 export default {
   name: "headerNav",
+  data(){
+    return{
+      showMenu:false,
+    }
+  },
   computed: {
     authed() {
       return app.auth().currentUser;
