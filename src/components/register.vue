@@ -965,7 +965,7 @@ import app from "../assets/firebaseconf";
 import firebase from "firebase";
 import Mailgun from "mailgun.js";
 let mailgun = new Mailgun(FormData);
-let mg = mailgun.client({username:'api',key:'32216a54cc169cafcca64fc737947ff0-c485922e-a2f9973d', url: 'https://api.eu.mailgun.net'});
+let mg = mailgun.client({username:'api',key:'5a900268685508cd7d62f396a173fbd5-a0cfb957-3ca2290b', url: 'https://api.eu.mailgun.net'});
 export default {
   name: "register",
   data() {
