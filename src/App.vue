@@ -2,6 +2,7 @@
   <div>
     <headerNav/>
     <logged v-if="authed" />
+    <youtube v-if="authed" />
     <login v-if="!authed"/>
     <speakers/>
     <banner v-if="fresh"/>
@@ -20,6 +21,7 @@ import flooter from './components/footer.vue'
 import login from './components/login.vue'
 import banner from './components/banner.vue'
 import logged from './components/congrats.vue'
+import youtube from './components/youtube.vue'
 
 export default {
   name: 'App',
@@ -35,7 +37,8 @@ export default {
     flooter,
     login,
     banner,
-    logged
+    logged,
+    youtube
   },
   computed:{
     authed(){
